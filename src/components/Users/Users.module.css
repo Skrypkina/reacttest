@@ -12,9 +12,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  /* background-color: #d1a163; */
-  /* background-color: #bf8b3d;
-  background-image: url('http://www.transparenttextures.com/patterns/wood-pattern.png'); */
   background-image: url('../../images/bg-pattern.png');
 }
 img {
@@ -53,12 +50,6 @@ img {
   margin: 0 auto;
   margin-bottom: 16px;
 }
-.mainTitle {
-  text-align: center;
-  color: rgba(33, 33, 33, 0.95);
-  margin-bottom: 30px;
-  text-transform: uppercase;
-}
 
 .usersListItem {
   display: block;
@@ -85,8 +76,6 @@ img {
   border: 2px solid #f1f1f1;
   box-sizing: border-box;
   border-radius: 8px;
-  /* background-color: #ffffff; */
-  /* color: #ffffff; */
   background-image: url('http://www.transparenttextures.com/patterns/paper.png');
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
@@ -105,7 +94,6 @@ img {
     padding-left: 60px;
   }
   .grid {
-    /* max-width: 1264px; */
     width: 1264px;
     margin: 0 auto;
     padding: 0 16px;
@@ -132,8 +120,5 @@ img {
     height: 200px;
     margin: 0 auto;
     margin-bottom: 30px;
-  }
-  .mainTitle {
-    margin-bottom: 80px;
   }
 }

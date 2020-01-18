@@ -59,10 +59,6 @@ class Users extends Component {
 
     return (
       <div className={styles.container}>
-        {/* <h2 className={styles.mainTitle}>
-          Enter a topic and find the book you are interested in
-        </h2> */}
-
         <div className={styles.grid}>{renderItems}</div>
         <ul id="page-numbers" className={styles.usersList}>
           {renderPageNumbers}

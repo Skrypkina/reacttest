@@ -1,5 +1,5 @@
 .mainTitle {
-  width: 320px;
+  width: 280px;
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -44,7 +44,7 @@
 
 @media (min-width: 1300px) {
   .mainTitle {
-    width: unset;
+    width: 800px;
     padding-top: 80px;
     margin-bottom: 50px;
   }

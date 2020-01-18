@@ -15,7 +15,6 @@ class SearchForm extends Component {
   handleSubmit = e => {
     e.preventDefault();
     /* eslint-disable-next-line */
-    //   this.props.onSubmit(this.state.query, this.state.category);
     this.props.setQuery(this.state.query);
 
     this.setState({ query: '' });
@@ -26,7 +25,8 @@ class SearchForm extends Component {
     return (
       <div>
         <h2 className={styles.mainTitle}>
-          Enter a topic and find the book you are interested in
+          Enter the search word for the topic you are interested in and find
+          your book
         </h2>
         <form onSubmit={this.handleSubmit} className={styles.form}>
           <input
