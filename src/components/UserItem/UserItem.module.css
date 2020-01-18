@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.descr {
+  mix-blend-mode: multiply;
+}
+.descr:not(:last-child) {
+  margin-bottom: 10px;
+}
+.descrSpan {
+  font-weight: 700;
+}
